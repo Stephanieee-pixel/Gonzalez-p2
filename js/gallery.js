@@ -33,6 +33,7 @@ function animate() {
 /************* DO NOT TOUCH CODE ABOVE THIS LINE ***************/
 
 function swapPhoto() {
+  getElementById(#slideShow)
 	//Add code here to access the #slideShow element.
 	//Access the img element and replace its source
 	//with a new image from your images array which is loaded
@@ -42,7 +43,7 @@ function swapPhoto() {
 
 // Counter for the mImages array
 var mCurrentIndex = 0;
- 
+
 // XMLHttpRequest variable
 var mRequest = new XMLHttpRequest();
 
@@ -105,6 +106,12 @@ function GalleryImage() {
   this.description;
   this.date;
   this.img;
+
+//  function fetchJSON.Onreadystatechange(){
+
+
+
+
 
 	//implement me as an object to hold the following data about an image:
 	//1. location where photo was taken

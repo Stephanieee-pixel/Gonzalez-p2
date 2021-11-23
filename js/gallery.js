@@ -111,6 +111,24 @@ function makeGalleryImageOnloadCallback(galleryImage) {
 $(document).ready( function() {
 	fetchJSON();
 
+const urlParams = new URLSearchParams(window.location.search);
+
+for (const [key, value] of urlParams) {
+
+console.log(`${key}:${value}`);
+
+mUrl = value;
+
+}
+
+if(mUrl == undefined)
+
+{
+
+mUrl = 'images.json';
+
+}
+
 	// This initially hides the photos' metadata information
 	//$('.details').eq(0).hide();
 
@@ -135,3 +153,6 @@ function GalleryImage() {
 }
 
 $("")apehend($("img").moreIndicator().hasClass)
+$("nextPhoto").position("right");
+$("nextPhoto").click(function);
+$("prvPhoto").click(function);

@@ -140,6 +140,8 @@ window.addEventListener('load', function() {
 
 }, false);
 
+
+
 function GalleryImage() {
   this.location;
   this.description;
@@ -153,6 +155,20 @@ function GalleryImage() {
 }
 
 $("")apehend($("img").moreIndicator().hasClass)
+
+function swapClass(){
+  $("this").hasClass("rot270"){
+
+  }
+}
+
 $("nextPhoto").position("right");
-$("nextPhoto").click(function);
-$("prvPhoto").click(function);
+
+$("nextPhoto").click(function(){
+  swapPhoto();
+})
+$("prevPhoto").click(function(){
+  mCurrentIndex-=2;
+  swapPhoto();
+}
+);

@@ -156,11 +156,15 @@ function GalleryImage() {
 
 $("")apehend($("img").moreIndicator().hasClass)
 
-function swapClass(){
-  $("this").hasClass("rot270"){
-
-  }
+$("img.moreIndicator").click(function(){
+$("this").hasClass("rot90").slideToggle("slow");
+else{
+  $("this").hasClass("rot270").slideToggle("slow");
 }
+
+})
+
+
 
 $("nextPhoto").position("right");
 

@@ -156,9 +156,12 @@ function GalleryImage() {
 
 
 $("img.moreIndicator").click(function(){
-$("this").hasClass("rot90").slideToggle("slow");
-else{
-  $("this").hasClass("rot270").slideToggle("slow");
+if (true) {
+  $("this").hasClass("rot90").removeClass("rot90").addClass("rot270");
+}
+
+else {
+  $("this").hasClass("rot270").removeClass("rot270").addClass("rot90").slideToggle("slow");
 }
 
 })

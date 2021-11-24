@@ -154,7 +154,6 @@ function GalleryImage() {
 	//4. either a String (src URL) or an an HTMLImageObject (bitmap of the photo. https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement)
 }
 
-$("")apehend($("img").moreIndicator().hasClass)
 
 $("img.moreIndicator").click(function(){
 $("this").hasClass("rot90").slideToggle("slow");

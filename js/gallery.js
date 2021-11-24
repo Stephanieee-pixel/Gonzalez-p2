@@ -156,14 +156,14 @@ function GalleryImage() {
 
 
 $("img.moreIndicator").click(function(){
-if (true) {
-  $("this").hasClass("rot90").removeClass("rot90").addClass("rot270");
+if (  $("this").hasClass("rot90")) {
+$('this').removeClass("rot90").addClass("rot270");
 }
 
 else {
-  $("this").hasClass("rot270").removeClass("rot270").addClass("rot90").slideToggle("slow");
+  $("this").removeClass("rot270").addClass("rot90");
 }
-
+$('this').slideToggle("slow");
 })
 
 

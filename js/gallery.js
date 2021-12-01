@@ -60,6 +60,7 @@ var mCurrentIndex = 0;
 // XMLHttpRequest variable
 var mRequest = new XMLHttpRequest();
 
+
 function fetchJSON()
 {
   mRequest.onreadystatechange = function() {
@@ -109,8 +110,6 @@ function makeGalleryImageOnloadCallback(galleryImage) {
 
 
 $(document).ready( function() {
-	fetchJSON();
-
 const urlParams = new URLSearchParams(window.location.search);
 
 for (const [key, value] of urlParams) {
@@ -128,6 +127,8 @@ if(mUrl == undefined)
 mUrl = 'images.json';
 
 }
+fetchJSON();
+
 
 	// This initially hides the photos' metadata information
 	//$('.details').eq(0).hide();

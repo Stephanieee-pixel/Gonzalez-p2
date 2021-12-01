@@ -52,10 +52,6 @@ body {
 	position: relative;
 }
 
-div#nav:hover{
-	opacity: 0.8;
-}
-
 #prevPhoto {
 	height: 42px;
 	width: 42px;

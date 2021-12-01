@@ -66,6 +66,10 @@ div#nav:hover{
 	width: 42px;
 }
 
+#nextPhoto:hover, #prevPhoto:hover{
+	opacity: 0.8;
+}
+
 .details p {
 	margin-top: 20px;
 }
@@ -84,7 +88,7 @@ transform:rotate(90deg);
 /*Add CSS styles to rotate the element 180deg
 Make it animate nicely. You'll need CSS3 for this*/
 .rot180 {
-
+transform:rotate(180deg);
 }
 
 /*Add CSS styles to rotate the element 270deg
